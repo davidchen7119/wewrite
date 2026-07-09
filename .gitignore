@@ -1,0 +1,17 @@
+# Python 虚拟环境（体积大，不纳入版本管理）
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 用户私有配置（含公众号 appid/secret，绝不推送）
+config.yaml
+style.yaml
+history.yaml
+
+# 生成物与图片（本地产出，体积大且含用户素材）
+output/
+
+# 编辑器 / 系统文件
+.DS_Store
+Thumbs.db
