@@ -12,6 +12,9 @@ history.yaml
 # 生成物与图片（本地产出，体积大且含用户素材）
 output/
 
+# 本地累积的去重素材清单（用户发文时不断追加，仅本地保留，不推送、不参与 pull 合并）
+references/visual-scene-inventory.md
+
 # 编辑器 / 系统文件
 .DS_Store
 Thumbs.db
